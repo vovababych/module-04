@@ -17,7 +17,9 @@
     font-weight: 300;
     font-size: 30px;
     line-height: 1;
+    color: #555252;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo::first-letter {
@@ -26,7 +28,6 @@
 }
 
 nav {
-    width: 485px;
     float: right;
 }
 
@@ -174,14 +175,15 @@ h2::after {
     margin-bottom: 14px;
 }
 
-.news-list button {
+.news-list .button {
     padding: 15px 44px;
-    border-radius: 2px;
     background-color: #1abc9c;
+    border-radius: 4px;
     font-family: "OpenSans", sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.625;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
