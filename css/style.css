@@ -20,6 +20,7 @@
     color: #555252;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .logo::first-letter {
@@ -48,6 +49,7 @@ nav {
     color: #0f0101;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .site-navigation li a:hover,
